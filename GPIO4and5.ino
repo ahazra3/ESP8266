@@ -109,7 +109,7 @@ void loop(){
             client.println(".button2 {background-color: #77878A;}</style></head>");
             
             // Web Page Heading
-            client.println("<body><h1>Ahmadshah Hazrati ESP8266 Web Server</h1>");
+            client.println("<body><h1>Ahmadshah Hazrati <br> ESP8266 Web Server</h1>");
             
             // Display current state, and ON/OFF buttons for GPIO 5  
             client.println("<p>GPIO 5 - State " + output5State + "</p>");
